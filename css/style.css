@@ -1,0 +1,145 @@
+.container{
+    background-color: aqua;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    padding:0px 10px;
+}
+li{
+    display: flex;
+    background-color:gray;
+    width: 70px;
+    border-radius: 10px;
+}
+ul{
+display: flex;
+gap: 30px;
+}
+ 
+.header i {
+    display: none;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+
+    }
+
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+
+    }
+}
+
+@media (max-width:767px) {
+
+    ul{
+        display: none;
+        position: absolute;
+        top:100%;
+        left: 0;
+        right: 0;
+        }
+
+        .header i {
+            display: block;
+        }
+
+        .header i:hover + ul {
+            display: block;
+        }   
+}
+.landing{
+    background-image: url(bg-portfolio.jpg);
+    height:calc( 100vh - 67px );
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.grid{
+    background-color: aqua;
+    position: relative; 
+}
+.flex{
+    display: grid;
+    gap: 5px;
+    margin-top: 5px;
+}
+.learn{
+    background-color:silver;
+    color: salmon;
+    height: auto;
+    width: 400px;
+   
+}
+.sora{
+    height: 500px;
+    width: 400px;
+    margin-top: 10px;
+}
+button{
+    background-color:aquamarine;
+    border-radius: 20px;
+}
+.a{
+    height: 380px;
+    width: 100px;
+}
+.b{
+    width: 120px;
+    height: 100px;
+}
+.cite{
+    display:flex;
+}
+.b{
+    background-color:seagreen;
+    height: auto;
+}
+.c{
+    background-color: slategray;
+    height: auto;
+}
+.d{
+    background-color:salmon;
+    height: auto;
+}
+.e{
+    position: relative;
+}
+.contact{
+    margin-left: 100px;
+}
+.by{
+    background-color: slategrey;
+    display: flex;
+}
+.nom{
+    color: salmon;
+}
